@@ -23,8 +23,10 @@ namespace BridgePattern
             //Console.WriteLine("Hello, World!");
 
             ///secandtest
-           
-            RefindMailServiceAbstraction mailServiceAbstraction = new RefindMailServiceAbstraction();
+            
+
+
+             RefindMailServiceAbstraction mailServiceAbstraction = new RefindMailServiceAbstraction();
             mailServiceAbstraction.send(new emailDTO { Reciver = "saeed", Tilte = "test", teax = "this is test" });
             Console.ReadLine();
         }

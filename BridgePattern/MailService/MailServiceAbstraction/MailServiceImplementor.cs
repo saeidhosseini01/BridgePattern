@@ -37,7 +37,7 @@ namespace BridgePattern.MailService.MailServiceAbstraction
     {
         public void sendEmail(emailDTO email)
         {
-            Console.WriteLine($"send emmail to **{email.Reciver} ** title {email.Tilte}** {typeof(GmailSender)}");
+            Console.WriteLine($"send emmail to **{email.Reciver} ** title {email.Tilte}** {typeof(CostomSender)}");
         }
     }
 
